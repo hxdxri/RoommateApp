@@ -72,7 +72,7 @@ export default function Login() {
 
                 <div className="text-yellow-950 underline underline-offset-1 italic pt-2 text-sm">
                     <Link
-                     href="register/register">
+                     href={"/register"}>
                         <h1>Don&apos;t have an account?</h1>
                     </Link>
                 </div>
