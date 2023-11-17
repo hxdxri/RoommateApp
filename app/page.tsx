@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
 
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-20">
       {/* Top component */}
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <Link
@@ -55,9 +55,9 @@ export default function Home() {
         />
       </div>
       {/* Bottom description */}
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left pt-3">
         <div
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors"
+          className="group rounded-lg border border-transparent px-5 py-6 transition-colors"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Organize{' '}
@@ -68,7 +68,7 @@ export default function Home() {
         </div>
 
         <div
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors"
+          className="group rounded-lg border border-transparent px-5 py-6 transition-colors"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Manage{' '}
@@ -79,7 +79,7 @@ export default function Home() {
         </div>
 
         <div
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors"
+          className="group rounded-lg border border-transparent px-5 py-6 transition-colors"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Communicate and Coordinate{' '}
@@ -90,7 +90,7 @@ export default function Home() {
         </div>
 
         <div
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors"
+          className="group rounded-lg border border-transparent px-5 py-6 transition-colors"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Personalize{' '}

@@ -2,9 +2,12 @@ import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
 import Link from "next/link";
 import Image from "next/image";
 
+
+// Fix square border on username and password
+
 export default function Register() {
     return (
-        <div className="Inter flex min-h-screen flex-col items-center justify-between p-24">
+        <div className="Inter flex min-h-screen flex-col items-center justify-between p-20">
             {/* Top component (heading) */}
             <div className="z-10 max-w-5xl w-full items-center justify-between text-sm lg:flex">
                 <Link
@@ -89,6 +92,23 @@ export default function Register() {
                                         autoComplete="username"
                                         className="block flex-1 border-0 py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
                                         placeholder="janesmith"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        {/* Password */}
+                        <div className="col-span-4">
+                            <label htmlFor="password" className="block text-sm font-medium leading-6">
+                                Password
+                            </label>
+                            <div className="mt-2">
+                                <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
+                                    <input
+                                        type="text"
+                                        name="password"
+                                        id="password"
+                                        autoComplete="password"
+                                        className="block flex-1 border-0 py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
                                     />
                                 </div>
                             </div>
