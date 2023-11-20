@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
+
+// Fix password field
 export default function Login() {
     return (
         <div className="Inter flex min-h-screen flex-col items-center justify-between p-20">

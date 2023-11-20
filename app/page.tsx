@@ -10,7 +10,10 @@ export default function Home() {
         <Link
             href={"/login"}>
           <p
-              className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-opacity-0 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30"
+              className="
+              fixed left-0 top-0 flex w-full justify-center
+            border-amber-950 pb-6 pt-8
+              lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-amber-100"
           >  Log in &nbsp;
               <Image
                   src="/login-logo.svg"
@@ -44,7 +47,7 @@ export default function Home() {
         </div>
       </div>
       {/* Center logo 'Aspen  306' */}
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[240px] before:-translate-x-1/2 before:rounded-lg before:bg-gray-500 before:content-[''] after:absolute after:-z-20 after:h-[120px] after:w-[160px] after:translate-x-1/3 after:bg-gray-300 after:content-[''] before:dark:bg-gray-800 before:dark:opacity-70 after:dark:opacity-40 before:lg:h-[240px] z-[-1]">
+      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[240px] before:-translate-x-1/2 before:rounded-lg before:bg-gray-500 before:content-[''] after:absolute after:-z-20 after:h-[120px] after:w-[160px] after:translate-x-1/3 after:bg-gray-300 after:content-[''] before:dark:bg-amber-950 before:dark:opacity-80 after:dark:opacity-40 before:lg:h-[240px] z-[-1]">
         <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/aspen-306-logo.svg"

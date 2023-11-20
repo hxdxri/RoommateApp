@@ -40,7 +40,7 @@ export default function Register() {
                                     name="first-name"
                                     id="first-name"
                                     autoComplete="given-name"
-                                    placeholder = "Jane"
+                                    placeholder = " Jane"
                                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
                             </div>
@@ -56,7 +56,7 @@ export default function Register() {
                                     name="last-name"
                                     id="last-name"
                                     autoComplete="family-name"
-                                    placeholder = "Smith"
+                                    placeholder = " Smith"
                                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
                             </div>
@@ -72,7 +72,7 @@ export default function Register() {
                                     name="email"
                                     type="email"
                                     autoComplete="email"
-                                    placeholder="user@example.com"
+                                    placeholder=" user@example.com"
                                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
                             </div>
@@ -121,7 +121,7 @@ export default function Register() {
                             <div className="mt-2">
                                 <input
                                     type="text"
-                                    placeholder={"ex. 101"}
+                                    placeholder={" ex. 101"}
                                     name="street-address"
                                     id="street-address"
                                     autoComplete="street-address"
@@ -139,7 +139,7 @@ export default function Register() {
                                     type="text"
                                     name="room-number"
                                     id="room-number"
-                                    placeholder={"ex. 2"}
+                                    placeholder={" ex. 2"}
                                     autoComplete="address-level2"
                                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
